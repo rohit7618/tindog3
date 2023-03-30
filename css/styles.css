@@ -1,0 +1,184 @@
+/********************************************element styling****************************************************/
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  font-family: "Montserrat-light";
+  color: #8f8f8f;
+}
+
+/*font awesome*/
+.fa1 {
+  margin-bottom: 1rem;
+  color: #ef8172;
+}
+
+.fa1:hover {
+  color: #ff4c68;
+}
+
+/* testinomial */
+.testimonials-image {
+  width: 25%;
+  border-radius: 100%;
+}
+
+.press-item {
+  width: 10%;
+  margin: 15px 10px 30px;
+}
+
+.carousel-item {
+  padding: 5% 15%;
+}
+
+/********************************************class styling****************************************************/
+.container-fluid {
+  padding: 3% 15% 10% 15%;
+}
+
+.download-button {
+  margin: 5% 10px 5% 0;
+}
+
+.dog-image {
+  width: 25%;
+  transform: rotate(25deg);
+  position: absolute;
+  left: 850px;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-item {
+  padding-right: 15px;
+}
+
+.nav-link {
+  font-family: "Montserrat-light";
+  font-size: 1.2rem;
+}
+
+.row {
+  padding-top: 4%;
+}
+
+.card-property {
+  background-color: #ef8172;
+}
+
+.card-button {
+  margin-top: 40px;
+  font-size: 20px;
+}
+
+.pricing-title {
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+. .af {
+  margin: 1%;
+}
+
+/* testimonial */
+.textimonials-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* features */
+.features-text {
+  font-size: 1.4rem;
+}
+
+/********************************************id styling****************************************************/
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+#title-line {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+#cta {
+  background-color: #ff4c68;
+}
+
+#features {
+  padding: 5% 15%;
+  position: relative;
+  background-color: #fff;
+}
+
+/* testimonial section */
+#testimonials {
+  background-color: #ef8172;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+/* pricing */
+#pricing {
+  padding: 5% 15%;
+}
+
+#pricing-h2 {
+  color: #000;
+  font-size: 3.5rem;
+}
+
+#card-buttons {
+  font-size: 20px;
+}
+
+#cta-3 {
+  font-size: 5rem;
+  color: #fff;
+}
+
+#footer {
+  background-color: #fff;
+}
+
+#paragraph {
+  color: #000;
+}
+
+/* media query */
+@media (max-width:992px) {
+  .dog-image {
+    position: static;
+    transform: rotate(0);
+    width: 40%;
+    margin-top: 10%;
+  }
+
+  #title {
+    text-align: center;
+  }
+
+  .title-line {
+    font-size: 3rem;
+  }
+}
